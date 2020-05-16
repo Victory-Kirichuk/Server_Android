@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Timetable {
 
+    private Integer episodeId;
     private Integer seriesId;
     private String seriesName;
     private Integer episodesNumber;
@@ -11,6 +12,14 @@ public class Timetable {
     private Date episodesDate;
     private String episodeName;
     private String image;
+
+    public Integer getEpisodeId() {
+        return episodeId;
+    }
+
+    public void setEpisodeId(Integer episodeId) {
+        this.episodeId = episodeId;
+    }
 
     public Integer getSeriesId() {
         return seriesId;

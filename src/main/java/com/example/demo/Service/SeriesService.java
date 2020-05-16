@@ -35,7 +35,7 @@ public class SeriesService {
     }
 
     public Series getById(Integer id) {
-        return seriesRepository.findById(id).get();
+        return seriesRepository.findSeriesById(id);
     }
 
     public List<Series> getMy(String email) {
