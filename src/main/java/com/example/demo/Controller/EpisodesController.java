@@ -31,7 +31,7 @@ public class EpisodesController {
     }
 
     @RequestMapping("get/{seriesName}")
-    public List<Episodes> get(@PathVariable("seiresName")String name){
+    public List<Episodes> get(@PathVariable("seriesName")String name){
         return episodesService.get(name);
     }
 
